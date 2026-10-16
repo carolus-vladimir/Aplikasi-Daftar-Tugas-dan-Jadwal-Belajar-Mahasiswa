@@ -1,0 +1,13 @@
+/* CSS tambahan Schedula (selain Bootstrap) */
+/* Hero: taruh gambar buku.jpg satu folder dengan index.html. Jika belum ada, warna coklat dipakai. */
+.hero {
+  background: url('buku.jpg') center/cover no-repeat, #3d3023;
+  min-height: 360px;
+  display: flex;
+  align-items: center;
+}
+.hero p { font-weight: 300; }
+.btn-aksi { white-space: nowrap; }
+.table-responsive { border: 1px solid #dee2e6; border-radius: .5rem; }
+.table-responsive .table { margin-bottom: 0; }
+.stat { font-size: 2rem; font-weight: 700; line-height: 1.1; }
